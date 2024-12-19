@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #548687;
+    text-align: center;
+    background: url('https://media.istockphoto.com/id/168678735/photo/metal-tic-tac-toe-game-pieces.jpg?s=612x612&w=0&k=20&c=PaH_PC31eSkyRSNwIGTbHo8_2rRBMeB-wO411SQao0E=') no-repeat center center/cover;
+  }
+  
+  .container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #04052E;
+    background-color: 5F7470;
+  }
+  
+  #reset-btn {
+    padding: 1rem;
+    font-size: 1.35rem;
+    background-color: #29524A;
+    color: #fff;
+    border-radius: 0.5rem;
+    border: none;
+  }
+  
+  #new-btn {
+    padding: 1rem;
+    font-size: 1.35rem;
+    background-color: #29524A;
+    color: #fff;
+    border-radius: 0.5rem;
+    border: none;
+  }
+  
+  #msg {
+    color: #0A090C;
+    font-size: 6vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
